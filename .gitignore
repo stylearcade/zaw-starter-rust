@@ -1,0 +1,12 @@
+# Rust
+/rust/target/
+/rust/pkg/
+
+# Node.js
+/node_modules/
+/typescript/node_modules/
+/typescript/dist/
+/typescript/package-lock.json
+
+# Logs
+*.log

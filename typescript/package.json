@@ -1,0 +1,20 @@
+{
+  "name": "zaw-typescript-example",
+  "version": "0.1.0",
+  "description": "TypeScript example with SIMD XOR operations",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "bench": "vitest bench --run",
+    "lint": "prettier --write \"**/*.ts\""
+  },
+  "dependencies": {
+    "zaw": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prettier": "3.5.3",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
